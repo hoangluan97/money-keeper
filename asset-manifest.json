@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hoangluan97/react-scss-initial.git/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/hoangluan97/react-scss-initial.git/static/js/main.19d13479.chunk.js",
+    "main.js.map": "/hoangluan97/react-scss-initial.git/static/js/main.19d13479.chunk.js.map",
+    "runtime-main.js": "/hoangluan97/react-scss-initial.git/static/js/runtime-main.f5977829.js",
+    "runtime-main.js.map": "/hoangluan97/react-scss-initial.git/static/js/runtime-main.f5977829.js.map",
+    "static/js/2.009fbb52.chunk.js": "/hoangluan97/react-scss-initial.git/static/js/2.009fbb52.chunk.js",
+    "static/js/2.009fbb52.chunk.js.map": "/hoangluan97/react-scss-initial.git/static/js/2.009fbb52.chunk.js.map",
+    "static/js/3.b4d0157d.chunk.js": "/hoangluan97/react-scss-initial.git/static/js/3.b4d0157d.chunk.js",
+    "static/js/3.b4d0157d.chunk.js.map": "/hoangluan97/react-scss-initial.git/static/js/3.b4d0157d.chunk.js.map",
+    "index.html": "/hoangluan97/react-scss-initial.git/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/hoangluan97/react-scss-initial.git/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.009fbb52.chunk.js.LICENSE.txt": "/hoangluan97/react-scss-initial.git/static/js/2.009fbb52.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hoangluan97/react-scss-initial.git/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5977829.js",
+    "static/js/2.009fbb52.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.19d13479.chunk.js"
+  ]
+}
