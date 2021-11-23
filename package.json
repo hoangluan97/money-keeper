@@ -1,7 +1,7 @@
 {
   "name": "money-keeper",
   "version": "0.1.0",
-  "homepage": "https://github.com/hoangluan97/react-scss-initial.git",
+  "homepage": "https://github.com/hoangluan97/money-keeper.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
