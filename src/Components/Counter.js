@@ -7,7 +7,7 @@
     incrementAsync,
     selectCount,
     } from './CounterSlice';
-    import styles from "./Components/counter.scss"
+    import styles from "./counter.scss"
 
     export function Counter() {
      const count = useSelector(selectCount);
