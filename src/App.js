@@ -1,12 +1,10 @@
 import "./App.scss";
-import { Counter } from "./Components/Counter";
-function App() {
+import HomePage from "./pages/homePage";
 
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <Counter />
-      </header>
+      <HomePage />
     </div>
   );
 }
