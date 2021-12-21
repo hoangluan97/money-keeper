@@ -4,6 +4,7 @@ export const slice = createSlice({
   name: 'counter',
   initialState: {
     value: 0,
+    abc:"",
   },
   reducers: {
     increment: state => {
@@ -14,12 +15,11 @@ export const slice = createSlice({
     },
     incrementByAmount: (state, action) => {
       state.value += action.payload;
+      // console.log("me",typeof(action.payload))
     },
   },
 });
-
 export const { increment, decrement, incrementByAmount } = slice.actions;
-
 export const incrementAsync = amount => dispatch => {
     setTimeout(() => {
       dispatch(incrementByAmount(amount));

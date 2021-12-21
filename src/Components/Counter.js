@@ -12,10 +12,11 @@
     export function Counter() {
      const count = useSelector(selectCount);
     const dispatch = useDispatch();
-    const [incrementAmount, setIncrementAmount] = useState('2');
+    const [incrementAmount, setIncrementAmount] = useState(0);
 
     return (
         <div>
+            {console.log("test",incrementByAmount(typeof(incrementAmount) || 0))}
         <div className={styles.row}>
             <button
             className={styles.button}
@@ -24,7 +25,7 @@
          >
             +
             </button>
-            <span className={styles.value}>{count}</span>
+            <span className={styles.value}><strong>{count}</strong></span>
             <button
             className={styles.button}
             aria-label="Decrement value"
@@ -50,7 +51,8 @@
             </button>
             <button
             className={styles.asyncButton}
-            onClick={() => dispatch(incrementAsync(Number(incrementAmount) || 0))}
+            onClick={() => 
+            dispatch(incrementAsync(Number(incrementAmount) || 0))}
             >
             Add Async
             </button>
