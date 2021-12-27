@@ -15,9 +15,14 @@ export const userSlice = createSlice({
       const filterUsers = state.users.filter((user) => user.id !== _userId);
       state.users = [...filterUsers];
     },
+    addUsersSuccess: (state, action) => {
+      console.log("new",action.payload.data)
+      state.users = [...state.users,{name:action.payload.name}]
+    }
   },
 });
 
-export const { authSuccess, fetchUsersSuccess, deleteUsersSuccess } =
+
+export const { authSuccess, fetchUsersSuccess, deleteUsersSuccess, addUsersSuccess } =
   userSlice.actions;
 export default userSlice.reducer;
